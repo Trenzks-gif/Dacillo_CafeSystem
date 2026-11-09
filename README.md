@@ -1,9 +1,10 @@
-###**ITS 202 Object-Oriented-Programming**
+# **ITS 202 Object-Oriented-Programming**
 
-###Java OOP Laboratory Exercise: Campus Café Ordering System\
-###Topics: Conditional Statements, Classes and Objects, Constructors, Encapsulation,Polymorphism, and Abstraction
+## Java OOP Laboratory Exercise: Campus Café Ordering System\
+## Topics: Conditional Statements, Classes and Objects, Constructors, Encapsulation,Polymorphism, and Abstraction
 
 Section: C
 
-Submitted by:
-Denzemiel Ethan S. Dacillo and Denemiel Nathan S. Dacillo
+Submitted by:/
+**Denzemiel Ethan S. Dacillo**/  
+**Denemiel Nathan S. Dacillo**
