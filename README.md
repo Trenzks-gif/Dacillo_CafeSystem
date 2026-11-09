@@ -6,5 +6,5 @@
 Section: C
 
 Submitted by:/
-**Denzemiel Ethan S. Dacillo**/  
+**Denzemiel Ethan S. Dacillo** 
 **Denemiel Nathan S. Dacillo**
