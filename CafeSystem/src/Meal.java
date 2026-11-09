@@ -1,6 +1,6 @@
 /**
  *
- *  This class represents meals available in the university Cafe.
+ *  This class represents meals that are available in the university Cafe.
  *  Customers can choose to upsize their meal and add extra sides.
  *
  * @author Denemiel Nathan S. Dacillo
@@ -12,7 +12,7 @@ public class Meal extends MenuItem {
     private boolean upsized;
     private int extraSides;
     /**
-     * Creates a meal with default values.
+     * This line Creates a meal with default values.
      * By default, the meal is regular with no extra sides.
      */
     public Meal() {
