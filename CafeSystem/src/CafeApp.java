@@ -27,6 +27,7 @@ public class CafeApp {
 
 Customer customer1 = new Customer("Ana Reyes", true);
 Customer customer2 = new Customer("Ben Cruz");
+Customer customer3 = new Customer("Kyle Rais");
 
 
 Beverage beverage = new Beverage("Iced Latte", 95, "B-01", "L");
@@ -67,15 +68,21 @@ Order order1 = new Order("1001", customer1);
         order1.addItem(pastry1);
         order1.printReceipt();
 
-        System.out.println();
+        System.out.println("\n");
 
 Order order2 = new Order("1002", customer2);
         order2.addItem(beverage1);
         order2.addItem(meal1);
         order2.printReceipt(20);
 
-        System.out.println();
+        System.out.println("\n");
+        
+Order order3 = new Order("1003", customer3);
+        order3.addItem(beverage1);
+        order3.addItem(pastry1);
+        order3.printReceipt();
 
+        System.out.println("\n");
 
 
 
