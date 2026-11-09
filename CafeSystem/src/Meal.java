@@ -66,7 +66,7 @@ public class Meal extends MenuItem {
         }
     }
     /**
-     * Changes the upsized status of the meal.
+     * This Changes the upsized status of the meal.
      *
      * @param upsized the new upsized status
      */
@@ -74,7 +74,7 @@ public class Meal extends MenuItem {
         this.upsized = upsized;
     }
     /**
-     * Calculates the total price of the meal.
+     * This code lines Calculates the total price of the meal.
      * Upsizing adds 20 pesos, while each extra side adds 12 pesos.
      *
      * @return the final price of the meal
