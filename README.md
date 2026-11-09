@@ -1,9 +1,9 @@
-### **PLEASE READ THIS**
+**ITS 202 Object-Oriented-Programming**
 
-### NOT YET DONE
+Section: C
 
-This is not done yet, I will probably add something here.
+Submitted by:
 
-Partially done, however the logic and codes are there. 
+Denzemiel Ethan S. Dacillo
 
-this project still needs a ton of polishing. you can use this as a basis for your code
+Denemiel Nathan S. Dacillo
