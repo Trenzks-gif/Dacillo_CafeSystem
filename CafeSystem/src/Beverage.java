@@ -1,5 +1,5 @@
 /**
- * This class Represents a beverage that are available in the university Cafe.
+ * This class Represents a beverage available in the university Cafe.
  * The price changes depending on the selected size (S, M, or L).
  * @author Denemiel Nathan S. Dacillo
  * @version 1.0

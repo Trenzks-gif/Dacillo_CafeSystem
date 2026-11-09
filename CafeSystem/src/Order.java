@@ -167,6 +167,7 @@ public class Order {
         double vouch = computeTotal(voucher);
         double subtotal = computeSubtotal();
         double discount = subtotal - total;
+
         // Add the student label to the header when the customer is a student.
         if (customer.isStudent() == true) {
             System.out.println("Order #" + getOrderId() + " - " + customer.getName() + " (Student)");

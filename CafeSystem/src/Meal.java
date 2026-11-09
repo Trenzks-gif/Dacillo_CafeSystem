@@ -1,6 +1,6 @@
 /**
  *
- *  This class represents meals that are available in the university Cafe.
+ *  This class represents meals available in the university Cafe.
  *  Customers can choose to upsize their meal and add extra sides.
  *
  * @author Denemiel Nathan S. Dacillo
@@ -12,7 +12,7 @@ public class Meal extends MenuItem {
     private boolean upsized;
     private int extraSides;
     /**
-     * This line Creates a meal with default values.
+     * Creates a meal with default values.
      * By default, the meal is regular with no extra sides.
      */
     public Meal() {
@@ -57,8 +57,8 @@ public class Meal extends MenuItem {
      *
      * @param extraSides new number of extra sides
      */
-    // Extra sides cannot have a negative value.
     public void setExtraSides(int extraSides) {
+        // Extra sides cannot have a negative value.
         if (extraSides >= 0) {
             this.extraSides = extraSides;
         } else {
@@ -66,7 +66,7 @@ public class Meal extends MenuItem {
         }
     }
     /**
-     * This Changes the upsized status of the meal.
+     * Changes the upsized status of the meal.
      *
      * @param upsized the new upsized status
      */
@@ -74,14 +74,15 @@ public class Meal extends MenuItem {
         this.upsized = upsized;
     }
     /**
-     * This code lines Calculates the total price of the meal.
+     * Calculates the total price of the meal.
      * Upsizing adds 20 pesos, while each extra side adds 12 pesos.
      *
      * @return the final price of the meal
      */
     @Override
-    // Add 20 pesos for upsizing and 12 pesos for each extra side.
+
     public double computePrice() {
+        // Add 20 pesos for upsizing and 12 pesos for each extra side.
         if (upsized) {
             return basePrice + 20 + 12 * extraSides;
         } else {
@@ -95,8 +96,8 @@ public class Meal extends MenuItem {
      * @return the meal description
      */
     @Override
-    // Display whether the meal is regular or upsized.
     public String getDescription() {
+        // Display whether the meal is regular or upsized.
         if (upsized) {
             return super.getDescription() + " Upsized, " + extraSides + " side/s";
         } else {

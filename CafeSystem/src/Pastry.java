@@ -1,6 +1,6 @@
 /**
- * This class represents pastries that are available in the university Cafe.
- * The Customers can choose whether they want their pastry warmed or not.
+ * This class represents pastries available in the university Cafe.
+ * Customers can choose whether they want their pastry warmed or not.
  * @author Denemiel Nathan S. Dacillo
  * @version 1.0
  *
@@ -9,7 +9,7 @@
  public class Pastry extends MenuItem {
     private boolean warmed;
     /**
-     * This Creates a pastry with default values.
+     * Creates a pastry with default values.
      * By default, the pastry is not warmed.
      */
     public Pastry() {
@@ -37,7 +37,7 @@
         return warmed;
     }
     /**
-     * this Sets the warmed status of the pastry.
+     * Sets the warmed status of the pastry.
      *
      * @param warmed the new warmed status
      */
@@ -52,8 +52,8 @@
      * @return the final price of the pastry
      */
     @Override
-    // Add 10 pesos if the pastry is warmed.
     public double computePrice() {
+        // Add 10 pesos if the pastry is warmed.
         if (warmed){
             return basePrice + 10;
         }
@@ -65,8 +65,9 @@
      * @return the pastry description
      */
     @Override
-    // Show the warmed label only if the pastry is warmed.
+
     public String getDescription() {
+        // Show the warmed label only if the pastry is warmed.
         if(warmed) {
             return super.getDescription() + " (Warmed)";
         }

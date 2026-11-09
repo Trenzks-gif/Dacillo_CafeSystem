@@ -74,8 +74,9 @@ public class Customer {
      *
      * @param points number of points to add
      */
-    // Do not accept negative points.
+
     public void addPoints(int points) {
+        // Do not accept negative points.
         if (points < 0) {
             System.out.println("Error: points cannot be negative.");
         } else {
@@ -89,8 +90,9 @@ public class Customer {
      *
      * @param amountSpent total amount spent by the customer
      */
-    // Check the amount first, then convert every 50 pesos spent into 1 point.
+
     public void addPoints(double amountSpent){
+        // Check the amount first, then convert every 50 pesos spent into 1 point.
 if(amountSpent < 0){
     System.out.println("Error: the amount spent cannot be negative");
 } else{
@@ -116,9 +118,9 @@ addPoints ((int) (amountSpent / 50));
         // Only update the points if the given value is not negative.
         if(loyaltyPoints < 0) {
             System.out.println("Error: Loyalty points cannot be negative");
-
+        } else {
+            this.loyaltyPoints = loyaltyPoints;
         }
-        this.loyaltyPoints = loyaltyPoints;
     }
     /**
      * Updates the customer's student status.

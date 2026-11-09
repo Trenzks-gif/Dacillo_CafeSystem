@@ -19,6 +19,12 @@ public class CafeApp {
 
         System.out.println("------Cafe App------");
 
+
+
+        System.out.print("Setter Error | ");
+
+
+
 Customer customer1 = new Customer("Ana Reyes", true);
 Customer customer2 = new Customer("Ben Cruz");
 

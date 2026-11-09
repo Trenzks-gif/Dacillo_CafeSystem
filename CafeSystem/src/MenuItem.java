@@ -35,14 +35,29 @@ public abstract class MenuItem {
         setItemCode(itemCode);
     }
 
+    /**
+     * Returns the name of this menu item.
+     *
+     * @return the item name
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * Returns the base price of this menu item, before any size or extra fees.
+     *
+     * @return the base price
+     */
     public double getBasePrice() {
         return basePrice;
     }
 
+    /**
+     * Returns the item code that identifies this menu
+     *
+     * @return the item code, such as "B-01"
+     */
     public String getItemCode() {
         return itemCode;
     }
@@ -55,7 +70,11 @@ public abstract class MenuItem {
         return name + " ["+ itemCode+"]";
     }
 
-
+    /**
+     * Sets the name of this menu item.
+     *
+     * @param name the new name of the item
+     */
     public void setName(String name) {
         this.name = name;
     }
@@ -72,6 +91,12 @@ public abstract class MenuItem {
             this.basePrice = basePrice;
         }
     }
+
+    /**
+     * Sets the item code that identifies this menu item.
+     *
+     * @param itemCode the new item code, such as "B-01"
+     */
 
     public void setItemCode(String itemCode) {
         this.itemCode = itemCode;
